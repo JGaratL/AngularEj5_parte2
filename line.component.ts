@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class LineComponent {
 
+  legenda = true;
+  title = "Covid % population";
+
   single = [
     {
       "name": "Germany",
@@ -76,3 +79,4 @@ export class LineComponent {
   ]
 
 }
+
